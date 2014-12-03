@@ -1,0 +1,13 @@
+content:
+	-ex1_lezione.l
+	-ex1_v1.l
+	-ex1_v2.l
+	-ex2.l
+	-ex2_v2.l
+	-inputex1
+	-inputMatcher
+	-matcher.l
+	-matchingStrings_lezione.l
+	-strings
+
+correction of Lex exercises for home.
