@@ -10,7 +10,7 @@
 %}
 
 %token INTEGER
-
+%left '+' '-'
 %%
 
 program:
