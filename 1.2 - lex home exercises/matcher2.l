@@ -1,3 +1,4 @@
+ /* It is not perfect ... But match non crazy URLs :) */
 method (ftp|http[s]?)
 
 sub_domain ([a-zA-Z0-9_-]+[\.]?)
@@ -10,8 +11,7 @@ var {var_sub}={var_sub}
 
 %%
 
-
-{method}:\/\/{sub_domain}+((\/)?|\/{page}*)?(\?{var}(\&{var})*[\&]?)? {printf("%s\n", yytext);}
+{method}:\/\/{sub_domain}+((\/)?|\/{page}*)?(\?{var}(\&{var})*(\&\*?)?)? {printf("%s\n", yytext);}
 
 \n          |
 .           ;
