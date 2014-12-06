@@ -2,3 +2,8 @@ lex.yy.c
 *.output
 y.tab.h
 y.tab.c
+Makefile_old
+interpreter
+graph
+compiler
+calc

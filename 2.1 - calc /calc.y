@@ -17,7 +17,7 @@
 
 %token INTEGER VARIABLE
 %left '+' '-'
-%right '*' '/'
+%left '*' '/'
 
 %{
     void yyerror(char *);
