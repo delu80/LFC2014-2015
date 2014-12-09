@@ -23,7 +23,7 @@ This said, gg wp
 %%
 
 [A-Za-z_]?\"(\\.|[^\\"])*\"			{
-									printf("matchied a string with the given specification\n");
+									printf("matched a string with the given specification\n");
 									printf("%s\n", yytext);
 
 									}
