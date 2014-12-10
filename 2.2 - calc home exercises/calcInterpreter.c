@@ -19,7 +19,7 @@ int ex(nodeType *p) {
                     }
                     return 0;
                 case SKIP:
-                    flagSkip = 1;
+                    if(insideLoop>0)flagSkip = 1;
                     return  0;
                 case FOR:
                     insideLoop++;

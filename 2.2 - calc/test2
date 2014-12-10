@@ -1,0 +1,10 @@
+x = 0;
+   while (x < 3) {
+		if(x){
+		 print x;
+		  
+		}else{
+		 print x+1;
+		}
+	x = x + 1;
+	}
