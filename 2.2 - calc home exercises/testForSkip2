@@ -1,0 +1,9 @@
+i = 9;
+for (i = 0 to 5){
+	if(i < 3) skip;
+	print i;
+	for (j = 0 to 2){
+		if(j < 1) skip;
+		print j;
+	}	
+}
