@@ -7,3 +7,7 @@ interpreter
 graph
 compiler
 calc
+errorTrack
+postfix
+reverseCalc
+struct
