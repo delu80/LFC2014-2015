@@ -1,0 +1,11 @@
+int [3]ciao;
+{
+	print ciao[0];
+	print ciao[1];
+	print ciao[2];
+	ciao[0] = 1;
+	print ciao[0];
+	print ciao[1];
+	print ciao[2];
+
+}

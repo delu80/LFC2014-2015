@@ -1,0 +1,9 @@
+record {int attivo; int automatico;} controllo;
+{
+	controllo.attivo = 1;
+	print controllo.attivo;
+	
+	controllo.automatico = 3;
+	print controllo.automatico;
+
+}

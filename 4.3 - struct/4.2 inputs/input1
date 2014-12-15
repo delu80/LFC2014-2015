@@ -1,0 +1,13 @@
+int [12][3] ciao;
+int lmao;
+
+{
+  ciao[0][0] = 12;
+  print ciao[0][0];
+  lmao = ciao[0][0];
+  print lmao;
+  ciao[0][0] = 13;
+  print lmao;
+  print ciao[0][0];
+
+}
