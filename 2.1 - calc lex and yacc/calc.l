@@ -1,4 +1,4 @@
-/** calculator calc.y
+/** calculator calc.l
  * origin source by Tom Niemann at epaperpress.com/lexandyacc
  * revision Lorenzo Massimo Gramola (2014)
  */
