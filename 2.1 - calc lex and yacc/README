@@ -5,5 +5,5 @@ the process of make follows the following flow:
 
 yacc –d bas.y				# create y.tab.h, y.tab.c
 lex bas.l				# create lex.yy.c
-cc lex.yy.c y.tab.c –obas.exe		# compile/link
+cc lex.yy.c y.tab.c –o bas.exe		# compile/link
 
