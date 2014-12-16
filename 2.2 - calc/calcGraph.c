@@ -4,7 +4,7 @@
  */
 
 /* Generation of the graph of the syntax tree */
-
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 
