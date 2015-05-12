@@ -1,0 +1,18 @@
+main{
+ 	record { String modello; String marca;} macchina;
+	bool t;
+	
+	t = true; //otherwise not printing "fine"
+	
+	String s;
+	s = "rs";
+	macchina.modello = s + 5;
+	printString macchina.modello;  // not "macchina.nome"
+	macchina.marca = “audi” + “ “ + “quattro”;
+	//macchina.marca = macchina.marca;
+	printString macchina.marca; 
+
+	if(t){
+		printString "fine";
+	}
+}
