@@ -1,0 +1,26 @@
+main{
+	int [3][2] a;
+	String [4] macchine;
+	bool f;
+	bool t;
+	t = true;
+	f = false;
+	a[0][0] = 1;
+	a[0][1] = 2;
+	a[1][0] = 11;
+	a[1][1] = 12;
+	a[2][0] = 21;
+	a[2][1] = 22;
+	print a[0][0];
+	print a[0][1];
+	print a[1][0];
+	print a[1][1];
+	print a[2][0];
+	print a[2][1];
+
+	macchine[0] = “bmw 118”;
+	macchine[1] = "bmw 320d"; //add ;
+	
+	if(f)	  print macchine[0]; //not [1]
+  if(t) 	print macchine[1]; //not [2]
+}
